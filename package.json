@@ -1,6 +1,6 @@
 {
   "name": "lambda-response-for-api-gateway",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "lambda response for api gateway",
   "repository": {
     "type": "git",
@@ -18,12 +18,6 @@
     "response",
     "utility",
     "aws"
-  ],
-  "maintainers": [
-    {
-      "name": "Jeahyun Cho",
-      "email": "skswhwo@gmail.com"
-    }
   ],
   "license": "MIT"
 }

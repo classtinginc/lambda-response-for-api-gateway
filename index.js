@@ -6,10 +6,10 @@ Response.success = (body, callback) => {
     callback(null, body);
 };
 Response.validationError = (errors, requestId, callback) => {
-    response._error(422, "Validation failed!", errors, requestId, callback);
+    Response._error(422, "Validation failed!", errors, requestId, callback);
 };
 Response.error = (statusCode, message, requestId, callback) => {
-    response._error(statusCode, message, [], requestId, callback);
+    Response._error(statusCode, message, [], requestId, callback);
 };
 Response._error = (statusCode, message, errors, requestId, callback) => {
     console.error(statusCode, message);
